@@ -1,0 +1,35 @@
+{
+    "input": "car lot.jpg",
+    "perception": {
+        "yolo_objects": [
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "bus",
+            "car",
+            "car",
+            "boat",
+            "car",
+            "bus"
+        ],
+        "yolo_object_count": 17,
+        "clip_scene": "a parking lot with cars",
+        "clip_confidence": 97.3
+    },
+    "decision": {
+        "result": "VEHICLE AREA DETECTED",
+        "reason": "CLIP identified a parking lot and YOLO detected vehicles."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_car lot.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

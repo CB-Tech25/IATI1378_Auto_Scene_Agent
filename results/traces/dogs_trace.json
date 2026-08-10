@@ -1,0 +1,22 @@
+{
+    "input": "dogs.jpg",
+    "perception": {
+        "yolo_objects": [
+            "dog",
+            "bear",
+            "dog",
+            "dog"
+        ],
+        "yolo_object_count": 4,
+        "clip_scene": "a dog scene",
+        "clip_confidence": 99.1
+    },
+    "decision": {
+        "result": "ANIMAL SCENE DETECTED",
+        "reason": "CLIP identified a dog scene and YOLO also detected dogs."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_dogs.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

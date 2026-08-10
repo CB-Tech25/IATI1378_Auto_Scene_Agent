@@ -1,0 +1,27 @@
+{
+    "input": "morocco market.avif",
+    "perception": {
+        "yolo_objects": [
+            "person",
+            "bowl",
+            "person",
+            "person",
+            "person",
+            "person",
+            "cake",
+            "bowl",
+            "bowl"
+        ],
+        "yolo_object_count": 9,
+        "clip_scene": "a busy outdoor market",
+        "clip_confidence": 99.3
+    },
+    "decision": {
+        "result": "CROWDED PUBLIC AREA DETECTED",
+        "reason": "CLIP identified a busy market scene and YOLO detected people or market-related objects."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_morocco market.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

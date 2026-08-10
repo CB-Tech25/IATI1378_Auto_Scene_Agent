@@ -1,0 +1,30 @@
+{
+    "input": "airport.jpg",
+    "perception": {
+        "yolo_objects": [
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "backpack",
+            "person",
+            "person",
+            "person"
+        ],
+        "yolo_object_count": 12,
+        "clip_scene": "an airport scene",
+        "clip_confidence": 100.0
+    },
+    "decision": {
+        "result": "TRAVEL SCENE DETECTED",
+        "reason": "CLIP identified an airport scene and YOLO provided object-level detections."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_airport.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

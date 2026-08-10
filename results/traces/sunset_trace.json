@@ -1,0 +1,17 @@
+{
+    "input": "sunset.jpg",
+    "perception": {
+        "yolo_objects": [],
+        "yolo_object_count": 0,
+        "clip_scene": "a sunset landscape",
+        "clip_confidence": 99.9
+    },
+    "decision": {
+        "result": "LOW-ACTIVITY SCENE",
+        "reason": "CLIP identified a sunset landscape and YOLO detected little or no object activity."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_sunset.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

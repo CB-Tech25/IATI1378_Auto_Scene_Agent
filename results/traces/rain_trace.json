@@ -1,0 +1,17 @@
+{
+    "input": "rain.jpg",
+    "perception": {
+        "yolo_objects": [],
+        "yolo_object_count": 0,
+        "clip_scene": "an airport scene",
+        "clip_confidence": 45.8
+    },
+    "decision": {
+        "result": "MANUAL REVIEW RECOMMENDED",
+        "reason": "CLIP confidence is low, so the scene classification may be unreliable."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_rain.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

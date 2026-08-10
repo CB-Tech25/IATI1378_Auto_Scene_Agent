@@ -1,0 +1,20 @@
+{
+    "input": "beautiful.jpg",
+    "perception": {
+        "yolo_objects": [
+            "bench",
+            "potted plant"
+        ],
+        "yolo_object_count": 2,
+        "clip_scene": "a dog scene",
+        "clip_confidence": 77.0
+    },
+    "decision": {
+        "result": "MODEL DISAGREEMENT - REVIEW",
+        "reason": "CLIP identified a dog scene, but YOLO did not detect a dog."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_beautiful.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

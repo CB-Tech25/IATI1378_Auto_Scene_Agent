@@ -1,0 +1,20 @@
+{
+    "input": "cars at night.jpg",
+    "perception": {
+        "yolo_objects": [
+            "wine glass",
+            "wine glass"
+        ],
+        "yolo_object_count": 2,
+        "clip_scene": "a road or traffic scene",
+        "clip_confidence": 81.6
+    },
+    "decision": {
+        "result": "POSSIBLE TRAFFIC SCENE - REVIEW",
+        "reason": "CLIP identified a traffic scene, but YOLO did not confirm expected vehicle objects."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_cars at night.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

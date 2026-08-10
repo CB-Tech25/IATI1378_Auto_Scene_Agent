@@ -1,0 +1,19 @@
+{
+    "input": "car.jpg",
+    "perception": {
+        "yolo_objects": [
+            "car"
+        ],
+        "yolo_object_count": 1,
+        "clip_scene": "a road or traffic scene",
+        "clip_confidence": 64.1
+    },
+    "decision": {
+        "result": "TRAFFIC SCENE DETECTED",
+        "reason": "CLIP identified a road or traffic scene and YOLO detected vehicle-related objects."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_car.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

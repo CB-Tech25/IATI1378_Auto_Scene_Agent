@@ -1,0 +1,17 @@
+{
+    "input": "downtown.jpg",
+    "perception": {
+        "yolo_objects": [],
+        "yolo_object_count": 0,
+        "clip_scene": "a road or traffic scene",
+        "clip_confidence": 34.7
+    },
+    "decision": {
+        "result": "MANUAL REVIEW RECOMMENDED",
+        "reason": "CLIP confidence is low, so the scene classification may be unreliable."
+    },
+    "action": {
+        "annotated_image": "results/images/annotated_downtown.jpg",
+        "structured_results": "results/agent_results.json"
+    }
+}

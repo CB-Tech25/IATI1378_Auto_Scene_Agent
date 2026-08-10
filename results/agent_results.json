@@ -1,0 +1,156 @@
+[
+    {
+        "image": "sunset.jpg",
+        "scene": "a sunset landscape",
+        "clip_confidence": 99.9,
+        "detected_objects": [],
+        "object_count": 0,
+        "yolo_inference_time": 1.48,
+        "decision": "LOW-ACTIVITY SCENE",
+        "reason": "CLIP identified a sunset landscape and YOLO detected little or no object activity."
+    },
+    {
+        "image": "airport.jpg",
+        "scene": "an airport scene",
+        "clip_confidence": 100.0,
+        "detected_objects": [
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "person",
+            "backpack",
+            "person",
+            "person",
+            "person"
+        ],
+        "object_count": 12,
+        "yolo_inference_time": 0.09,
+        "decision": "TRAVEL SCENE DETECTED",
+        "reason": "CLIP identified an airport scene and YOLO provided object-level detections."
+    },
+    {
+        "image": "car lot.jpg",
+        "scene": "a parking lot with cars",
+        "clip_confidence": 97.3,
+        "detected_objects": [
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "bus",
+            "car",
+            "car",
+            "boat",
+            "car",
+            "bus"
+        ],
+        "object_count": 17,
+        "yolo_inference_time": 0.049,
+        "decision": "VEHICLE AREA DETECTED",
+        "reason": "CLIP identified a parking lot and YOLO detected vehicles."
+    },
+    {
+        "image": "dogs.jpg",
+        "scene": "a dog scene",
+        "clip_confidence": 99.1,
+        "detected_objects": [
+            "dog",
+            "bear",
+            "dog",
+            "dog"
+        ],
+        "object_count": 4,
+        "yolo_inference_time": 0.01,
+        "decision": "ANIMAL SCENE DETECTED",
+        "reason": "CLIP identified a dog scene and YOLO also detected dogs."
+    },
+    {
+        "image": "morocco market.avif",
+        "scene": "a busy outdoor market",
+        "clip_confidence": 99.3,
+        "detected_objects": [
+            "person",
+            "bowl",
+            "person",
+            "person",
+            "person",
+            "person",
+            "cake",
+            "bowl",
+            "bowl"
+        ],
+        "object_count": 9,
+        "yolo_inference_time": 0.122,
+        "decision": "CROWDED PUBLIC AREA DETECTED",
+        "reason": "CLIP identified a busy market scene and YOLO detected people or market-related objects."
+    },
+    {
+        "image": "car.jpg",
+        "scene": "a road or traffic scene",
+        "clip_confidence": 64.1,
+        "detected_objects": [
+            "car"
+        ],
+        "object_count": 1,
+        "yolo_inference_time": 0.019,
+        "decision": "TRAFFIC SCENE DETECTED",
+        "reason": "CLIP identified a road or traffic scene and YOLO detected vehicle-related objects."
+    },
+    {
+        "image": "downtown.jpg",
+        "scene": "a road or traffic scene",
+        "clip_confidence": 34.7,
+        "detected_objects": [],
+        "object_count": 0,
+        "yolo_inference_time": 0.136,
+        "decision": "MANUAL REVIEW RECOMMENDED",
+        "reason": "CLIP confidence is low, so the scene classification may be unreliable."
+    },
+    {
+        "image": "cars at night.jpg",
+        "scene": "a road or traffic scene",
+        "clip_confidence": 81.6,
+        "detected_objects": [
+            "wine glass",
+            "wine glass"
+        ],
+        "object_count": 2,
+        "yolo_inference_time": 0.021,
+        "decision": "POSSIBLE TRAFFIC SCENE - REVIEW",
+        "reason": "CLIP identified a traffic scene, but YOLO did not confirm expected vehicle objects."
+    },
+    {
+        "image": "beautiful.jpg",
+        "scene": "a dog scene",
+        "clip_confidence": 77.0,
+        "detected_objects": [
+            "bench",
+            "potted plant"
+        ],
+        "object_count": 2,
+        "yolo_inference_time": 0.134,
+        "decision": "MODEL DISAGREEMENT - REVIEW",
+        "reason": "CLIP identified a dog scene, but YOLO did not detect a dog."
+    },
+    {
+        "image": "rain.jpg",
+        "scene": "an airport scene",
+        "clip_confidence": 45.8,
+        "detected_objects": [],
+        "object_count": 0,
+        "yolo_inference_time": 0.063,
+        "decision": "MANUAL REVIEW RECOMMENDED",
+        "reason": "CLIP confidence is low, so the scene classification may be unreliable."
+    }
+]

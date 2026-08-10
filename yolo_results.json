@@ -1,0 +1,529 @@
+{
+    "sunset.jpg": {
+        "detections": [],
+        "object_count": 0,
+        "inference_time_seconds": 1.48
+    },
+    "airport.jpg": {
+        "detections": [
+            {
+                "label": "person",
+                "confidence": 0.815,
+                "bbox": [
+                    254.96,
+                    82.0,
+                    287.13,
+                    194.22
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.744,
+                "bbox": [
+                    127.48,
+                    79.41,
+                    151.25,
+                    163.13
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.727,
+                "bbox": [
+                    209.94,
+                    76.54,
+                    238.47,
+                    168.93
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.708,
+                "bbox": [
+                    48.16,
+                    80.51,
+                    78.29,
+                    117.91
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.678,
+                "bbox": [
+                    157.76,
+                    73.22,
+                    185.77,
+                    169.89
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.66,
+                "bbox": [
+                    97.67,
+                    74.66,
+                    118.01,
+                    103.85
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.629,
+                "bbox": [
+                    31.26,
+                    86.98,
+                    63.81,
+                    126.48
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.515,
+                "bbox": [
+                    158.15,
+                    72.9,
+                    185.44,
+                    142.8
+                ]
+            },
+            {
+                "label": "backpack",
+                "confidence": 0.507,
+                "bbox": [
+                    221.34,
+                    90.57,
+                    243.06,
+                    122.87
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.381,
+                "bbox": [
+                    243.36,
+                    75.96,
+                    263.08,
+                    122.5
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.287,
+                "bbox": [
+                    243.35,
+                    75.74,
+                    265.22,
+                    166.18
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.271,
+                "bbox": [
+                    182.79,
+                    91.98,
+                    200.7,
+                    120.41
+                ]
+            }
+        ],
+        "object_count": 12,
+        "inference_time_seconds": 0.09
+    },
+    "car lot.jpg": {
+        "detections": [
+            {
+                "label": "car",
+                "confidence": 0.753,
+                "bbox": [
+                    251.3,
+                    136.61,
+                    296.59,
+                    191.88
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.647,
+                "bbox": [
+                    132.39,
+                    141.34,
+                    167.18,
+                    191.7
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.623,
+                "bbox": [
+                    287.08,
+                    133.09,
+                    346.22,
+                    187.69
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.5,
+                "bbox": [
+                    45.52,
+                    146.34,
+                    81.46,
+                    183.79
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.492,
+                "bbox": [
+                    259.47,
+                    107.8,
+                    284.46,
+                    128.24
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.484,
+                "bbox": [
+                    88.5,
+                    133.22,
+                    133.86,
+                    188.57
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.482,
+                "bbox": [
+                    239.67,
+                    108.45,
+                    258.01,
+                    127.6
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.471,
+                "bbox": [
+                    210.58,
+                    130.05,
+                    245.71,
+                    190.48
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.464,
+                "bbox": [
+                    0.11,
+                    130.6,
+                    70.1,
+                    183.14
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.44,
+                "bbox": [
+                    286.62,
+                    104.4,
+                    317.71,
+                    127.06
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.384,
+                "bbox": [
+                    352.55,
+                    130.66,
+                    385.85,
+                    167.05
+                ]
+            },
+            {
+                "label": "bus",
+                "confidence": 0.376,
+                "bbox": [
+                    88.85,
+                    132.71,
+                    133.51,
+                    188.46
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.303,
+                "bbox": [
+                    174.92,
+                    105.98,
+                    193.66,
+                    127.22
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.292,
+                "bbox": [
+                    0.03,
+                    128.54,
+                    45.97,
+                    177.6
+                ]
+            },
+            {
+                "label": "boat",
+                "confidence": 0.286,
+                "bbox": [
+                    0.47,
+                    72.59,
+                    32.64,
+                    86.22
+                ]
+            },
+            {
+                "label": "car",
+                "confidence": 0.276,
+                "bbox": [
+                    315.91,
+                    124.09,
+                    385.59,
+                    183.69
+                ]
+            },
+            {
+                "label": "bus",
+                "confidence": 0.276,
+                "bbox": [
+                    310.81,
+                    105.2,
+                    385.71,
+                    184.36
+                ]
+            }
+        ],
+        "object_count": 17,
+        "inference_time_seconds": 0.049
+    },
+    "dogs.jpg": {
+        "detections": [
+            {
+                "label": "dog",
+                "confidence": 0.432,
+                "bbox": [
+                    33.25,
+                    28.03,
+                    139.46,
+                    216.37
+                ]
+            },
+            {
+                "label": "bear",
+                "confidence": 0.342,
+                "bbox": [
+                    191.05,
+                    39.07,
+                    249.01,
+                    107.28
+                ]
+            },
+            {
+                "label": "dog",
+                "confidence": 0.291,
+                "bbox": [
+                    278.97,
+                    40.12,
+                    367.36,
+                    106.72
+                ]
+            },
+            {
+                "label": "dog",
+                "confidence": 0.278,
+                "bbox": [
+                    261.8,
+                    39.11,
+                    366.78,
+                    217.12
+                ]
+            }
+        ],
+        "object_count": 4,
+        "inference_time_seconds": 0.01
+    },
+    "morocco market.avif": {
+        "detections": [
+            {
+                "label": "person",
+                "confidence": 0.729,
+                "bbox": [
+                    747.6,
+                    326.11,
+                    812.85,
+                    503.19
+                ]
+            },
+            {
+                "label": "bowl",
+                "confidence": 0.635,
+                "bbox": [
+                    890.65,
+                    507.39,
+                    1118.29,
+                    670.17
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.618,
+                "bbox": [
+                    700.65,
+                    329.43,
+                    751.12,
+                    474.22
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.563,
+                "bbox": [
+                    635.44,
+                    336.68,
+                    674.64,
+                    446.96
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.512,
+                "bbox": [
+                    546.59,
+                    330.33,
+                    615.44,
+                    482.39
+                ]
+            },
+            {
+                "label": "person",
+                "confidence": 0.5,
+                "bbox": [
+                    675.41,
+                    337.33,
+                    705.88,
+                    440.68
+                ]
+            },
+            {
+                "label": "cake",
+                "confidence": 0.263,
+                "bbox": [
+                    0.0,
+                    570.99,
+                    286.81,
+                    735.0
+                ]
+            },
+            {
+                "label": "bowl",
+                "confidence": 0.258,
+                "bbox": [
+                    1124.34,
+                    436.41,
+                    1380.0,
+                    571.79
+                ]
+            },
+            {
+                "label": "bowl",
+                "confidence": 0.255,
+                "bbox": [
+                    1021.42,
+                    402.49,
+                    1217.98,
+                    516.38
+                ]
+            }
+        ],
+        "object_count": 9,
+        "inference_time_seconds": 0.122
+    },
+    "car.jpg": {
+        "detections": [
+            {
+                "label": "car",
+                "confidence": 0.923,
+                "bbox": [
+                    86.73,
+                    96.43,
+                    307.1,
+                    174.37
+                ]
+            }
+        ],
+        "object_count": 1,
+        "inference_time_seconds": 0.019
+    },
+    "downtown.jpg": {
+        "detections": [],
+        "object_count": 0,
+        "inference_time_seconds": 0.136
+    },
+    "cars at night.jpg": {
+        "detections": [
+            {
+                "label": "wine glass",
+                "confidence": 0.383,
+                "bbox": [
+                    187.53,
+                    72.85,
+                    254.07,
+                    216.5
+                ]
+            },
+            {
+                "label": "wine glass",
+                "confidence": 0.29,
+                "bbox": [
+                    187.67,
+                    71.93,
+                    281.93,
+                    216.41
+                ]
+            }
+        ],
+        "object_count": 2,
+        "inference_time_seconds": 0.021
+    },
+    "beautiful.jpg": {
+        "detections": [
+            {
+                "label": "bench",
+                "confidence": 0.421,
+                "bbox": [
+                    49.97,
+                    139.83,
+                    126.6,
+                    187.94
+                ]
+            },
+            {
+                "label": "potted plant",
+                "confidence": 0.304,
+                "bbox": [
+                    78.82,
+                    120.73,
+                    112.07,
+                    141.95
+                ]
+            }
+        ],
+        "object_count": 2,
+        "inference_time_seconds": 0.134
+    },
+    "rain.jpg": {
+        "detections": [],
+        "object_count": 0,
+        "inference_time_seconds": 0.063
+    }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "image": "sunset.jpg",
+        "scene": "a sunset landscape",
+        "confidence": 99.9
+    },
+    {
+        "image": "airport.jpg",
+        "scene": "an airport scene",
+        "confidence": 100.0
+    },
+    {
+        "image": "car lot.jpg",
+        "scene": "a parking lot with cars",
+        "confidence": 97.3
+    },
+    {
+        "image": "dogs.jpg",
+        "scene": "a dog scene",
+        "confidence": 99.1
+    },
+    {
+        "image": "morocco market.avif",
+        "scene": "a busy outdoor market",
+        "confidence": 99.3
+    },
+    {
+        "image": "car.jpg",
+        "scene": "a road or traffic scene",
+        "confidence": 64.1
+    },
+    {
+        "image": "downtown.jpg",
+        "scene": "a road or traffic scene",
+        "confidence": 34.7
+    },
+    {
+        "image": "cars at night.jpg",
+        "scene": "a road or traffic scene",
+        "confidence": 81.6
+    },
+    {
+        "image": "beautiful.jpg",
+        "scene": "a dog scene",
+        "confidence": 77.0
+    },
+    {
+        "image": "rain.jpg",
+        "scene": "an airport scene",
+        "confidence": 45.8
+    }
+]
